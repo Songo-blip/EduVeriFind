@@ -2,16 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
-<head>
-    <style>
-        body {
-            background-image:url('images/b2.jpg');
-            background-repeat:no-repeat;
-            background-attachment:fixed;
-            background-size:cover
-        }
-    </style>
-</head>
+
+    <div class="card-group">
+        <div class="card" style="height:400px; width:400px;">
+            <img src="~/images/now.jpg" style="height:380px; width:380px;"/>
+        </div>
+        <div class="card">
+            <img src="~/images/intro.jpg" style="height:380px; width:380px; opacity:20%; " class="card-img-overlay"/>
+            <div class="card-body" >
+                <h1 class="card-title" font-family:'Ink Free'" ><br />Veri-Edu</h1>
+                <h2 class="card-subtitle" style="background-color:darkseagreen; font-family:'Ink Free'" ><br />A new approach to Early Childhood Care</h2>
+            </div>
+        </div>
+    </div>
+
 
 <div class="card-deck">
     <div class=" card">
@@ -36,7 +40,7 @@
 
 <h1 style="text-align:center">What we offer:</h1>
 
-<div class="card-columns">
+<div class="card-group">
     <div class="card">
         <img src="~/images/parents.jpg" style="height:400px; width:400px;" />
     </div>
@@ -60,7 +64,7 @@
     </div>
 </div>
 
-<div class="card-columns">
+<div class="card-group">
     <div class="card">
         <img src="~/images/ecd.jpg" style="height:400px; width:400px;" />
 
