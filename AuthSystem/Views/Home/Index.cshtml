@@ -2,9 +2,16 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div>
-    <img src="~/images/now.jpg" style="height:500px; width:100%;"/>
-</div>
+<head>
+    <style>
+        body {
+            background-image:url('images/b1.jpg');
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-size:cover
+        }
+    </style>
+</head>
 
 <div class="card-deck">
     <div class=" card">
@@ -29,41 +36,50 @@
 
 <h1 style="text-align:center">What we offer:</h1>
 
-<div class="card">
-    <img src="~/images/parents.jpg" style=""/>
+<div class="card-columns">
+    <div class="card">
+        <img src="~/images/parents.jpg" style="height:400px; width:400px;" />
+    </div>
     
-    <div class="card-body">
-        <h2 class="card-title"><br />Parents:</h2>
-        <ul class="card-text" style="background-color:lightyellow;">
-            <li>ECD verification </li>
-            <li>All ECD centres within a specified region and their details.</li>
-            <li>Filter option to select and browse only ECD centres meeting your specific set of preferences.</li>
-            <li>Online ECD centre application</li>
-            <li>Tracking your childs application digitally</li>
-            <li>Online ECD centre registration.</li>
-            <li>Safe and secure line of communication with ECD centre.</li>
-            <li>ECD centre meal plans</li>
-            <li>ECD centre calendar</li>
-            <li>Reminders of events</li>
-        </ul>
-
+    <div class="card" style="height:500px; width:500px;">
+        <div class="card-body">
+            <h2 class="card-title"><br />Parents:</h2>
+            <ul class="card-text" style="background-color:lightyellow;">
+                <li>ECD verification </li>
+                <li>All ECD centres within a specified region and their details.</li>
+                <li>Filter option to select and browse only ECD centres meeting your specific set of preferences.</li>
+                <li>Online ECD centre application</li>
+                <li>Tracking your childs application digitally</li>
+                <li>Online ECD centre registration.</li>
+                <li>Safe and secure line of communication with ECD centre.</li>
+                <li>ECD centre meal plans</li>
+                <li>ECD centre calendar</li>
+                <li>Reminders of events</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="card">
-   <img src="~/images/ecd.jpg" class="card-img-top"/>
-    <div class="card-body">
-        <h2 class="card-title">ECD centre :</h2>
-        <ul class="card-text" style="background-color:palegoldenrod">
-            <li>Guidelines on registering ECD centre</li>
-            <li>Platform to list and advertise your business</li>
-            <li>Safe and secure line of communication with parents and staff</li>
-            <li>Online application system</li>
-            <li>Online registration system</li>
-            <li>Easy paperless updates and notices to parents</li>
-        </ul>
+<div class="card-columns">
+    <div class="card">
+        <img src="~/images/ecd.jpg" style="height:400px; width:400px;" />
+
     </div>
 
+    <div class="card" style="height:400px; width:400px;">
+        <div class="card-body">
+            <h2 class="card-title">ECD centre :</h2>
+            <ul class="card-text" style="background-color:palegoldenrod">
+                <li>Guidelines on registering ECD centre</li>
+                <li>Platform to list and advertise your business</li>
+                <li>Safe and secure line of communication with parents and staff</li>
+                <li>Online application system</li>
+                <li>Online registration system</li>
+                <li>Easy paperless updates and notices to parents</li>
+            </ul>
+        </div>
+
+    </div>
 </div>
 
 <p>&nbsp;</p>
